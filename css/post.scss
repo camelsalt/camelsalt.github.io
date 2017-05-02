@@ -1,0 +1,128 @@
+---
+# for post page
+---
+
+@import "core";
+
+.post {
+  padding: 0 0 54px;
+
+  .post-content {
+    border-top: 1px solid #cacaca;
+    padding-top: 40px;
+
+    h1, h2 {
+      font-size: 1.5em;
+      font-weight: bold;
+      margin: 0 0 22px 0;
+      padding: 22px 0 0 0;
+    }
+
+    h3 {
+      font-weight: bold;
+      margin-bottom: 20px;
+      font-size: 1.2em;
+      color: #1a1a1a;
+      text-indent: 0px;
+      margin-top: 50px;
+    }
+
+    h4 {
+      font-weight: bold;
+      font-size: 1em;
+      color: #1a1a1a;
+      text-indent: 0px;
+      clear: both;
+      width: 600px;
+      margin-bottom: 6px;
+    }
+
+    h5 {
+      font-size: .75em;
+      text-indent: 0px;
+      clear: both;
+      width: 600px;
+      margin-bottom: 6px;
+      font-weight: bold;
+      color: #4a4a4a;
+    }
+
+    p {
+      margin: 0.7em 0 0.7em;
+    }
+
+    a:link {
+      color: #5c5c5c;
+      text-decoration: none;
+      border-bottom: 1px solid #a4a4a4;
+    }
+
+    a:visited {
+      color: #7d7d7d;
+      text-decoration: none;
+      border-bottom: 1px dotted #9f9f9f;
+    }
+
+    a:hover {
+      color: Black;
+      text-decoration: none;
+      border-bottom: 1px solid black;
+    }
+
+    blockquote {
+      color: #7d7d7d;
+      padding-right: 20px;
+      margin-left: 25px;
+    }
+
+    em {
+      font-weight: bold;
+      font-style: normal;
+    }
+
+    ul {
+      list-style: disc;
+      margin: 0 0 1em;
+      // width: 80%;
+      width: 100%;
+      clear: both;
+    }
+
+    li {
+      text-indent: 0;
+      margin: 0 0 0 2em;
+    }
+
+    dl {
+      margin: 18px 103px 18px 0;
+    }
+
+    dt {
+      font-weight: bold;
+      text-indent: 0;
+    }
+
+    dd {
+      margin: 0 0 18px 0;
+    }
+
+    code {
+      background: #272822;
+      color: #f8f8f2;
+    }
+
+    img {
+      outline: 1px solid #cacaca;
+      outline-offset: -1px;
+      padding: 1px;
+      overflow: visible;
+      visibility: visible;
+      text-indent: 0px;
+      float: left;
+      margin-bottom: 18px;
+      margin-left: 1px;
+      width: 99%;
+      height: auto;
+    }
+  }
+}

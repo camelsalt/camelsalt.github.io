@@ -1,0 +1,42 @@
+.post {
+  .post-title {
+    font: bold 1.6em/1.5 "TIBch", "Classic Grotesque W01", "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, "Hiragino Sans GB", "PingFang SC", "Heiti SC", "Microsoft YaHei UI", "Microsoft YaHei", "Source Han Sans", sans-serif;
+    padding: 2px 0 .3em 0;
+    color: #000;
+    letter-spacing: 1px;
+    width: 80%;
+
+    a {
+      text-decoration: none;
+      color: #000;
+
+      :hover {
+        border-bottom: 2px solid black;
+      }
+    }
+  }
+
+  .post-meta {
+    color: #7d7d7d;
+    font: .8em "Classic Grotesque W01", "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, "Hiragino Sans GB", "PingFang SC", "Heiti SC", "Microsoft YaHei UI", "Microsoft YaHei", "Source Han Sans", sans-serif;
+  }
+
+  .post-content {
+    text-align: left;
+    color: #5c5c5c;
+    margin: 20px 0 15px;
+  }
+}
+
+footer {
+  background: Black;
+  color: #fff;
+  width: 100%;
+  padding: 20px 0;
+
+  .center {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+  }
+}

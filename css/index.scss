@@ -1,0 +1,67 @@
+---
+# for home page
+---
+
+@import "core";
+
+header {
+  background: Black;
+  color: #fff;
+  width: 100%;
+  padding: 20px 0;
+
+  .title {
+    padding: 0px;
+  }
+}
+
+.posts {
+  padding: 0 0 54px;
+}
+
+.post {
+
+  .post-content {
+    border-bottom: 1px solid #cacaca;
+  }
+}
+
+.pagination {
+  margin: 0px 0 36px 0;
+  overflow: hidden;
+  clear: both;
+
+  ul {
+    margin: 0;
+    font-size: 0.75em;
+    list-style: disc;
+    padding: 2px 0 2px 0;
+
+    li {
+      display: inline-block;
+      height: 30px;
+      line-height: 30px;
+      color: white;
+      margin-right: .5em;
+    }
+
+    li a, li span {
+      padding: 10px;
+    }
+
+    li, li.disabled {
+      background-color: #999;
+      cursor: pointer;
+      padding: 0 1em;
+    }
+
+    li:hover, li.active {
+      background-color: #000;
+    }
+
+    li a, li a:hover, li.active a, li.disabled {
+      color: #fff;
+      text-decoration:none;
+    }
+  }
+}

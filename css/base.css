@@ -1,0 +1,180 @@
+/* =typography
+-------------------------------------------------------------- */
+
+/* --------------------------------------------------------------
+
+   Set some default typography based on Blueprint
+   * http://code.google.com/p/blueprintcss/
+
+   Based on work by:
+   * Nathan Borror     [playgroundblues.com]
+   * Jeff Croft        [jeffcroft.com]
+   * Christian Metts   [mintchaos.com]
+   * Wilson Miner      [wilsonminer.com]
+
+   Read more about using a baseline here:
+   * alistapart.com/articles/settingtypeontheweb
+
+-------------------------------------------------------------- */
+
+body {
+    font: 16px/1.6 "Classic Grotesque W01", "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, "Hiragino Sans GB", "PingFang SC", "Heiti SC", "Microsoft YaHei UI", "Microsoft YaHei", "Source Han Sans", sans-serif;
+}
+
+/* Headings
+-------------------------------------------------------------- */
+
+h1,h2,h3 {
+    font-weight: normal;
+    clear: both;
+}
+
+h4,h5,h6 {
+    font-weight: normal;
+}
+
+/* Text elements
+-------------------------------------------------------------- */
+
+p {
+    margin: 0 0 18px 0;
+}
+
+ul {
+    margin: 0 0 18px 1.5em;
+}
+
+ul {
+    list-style: disc;
+}
+
+ol {
+    list-style: decimal;
+    margin-bottom: 1em;
+}
+
+ol ol {
+    list-style: upper-alpha;
+}
+
+ol ol ol {
+    list-style: lower-roman;
+}
+
+ol ol ol ol {
+    list-style: lower-alpha;
+}
+
+ul ul, ol ol, ul ol, ol ul {
+    margin-bottom: 0;
+}
+
+/*dl    {
+    margin: 0 0 1.5em 0;
+}
+dl dt {
+    font-weight: bold;
+    margin: 18px 0 0 0;
+}
+dd {
+    margin: 0 0 0 1.5em;
+}*/
+
+strong {
+    font-weight: bold;
+}
+
+cite, em, i {
+    font-style: italic;
+}
+
+blockquote em, blockquote i, blockquote cite {
+    font-style: normal;
+}
+
+sup,sub {
+    height: 0px;
+    line-height: 10px;
+    vertical-align: super;
+    width: 0px;
+}
+
+sup {;
+}
+
+sub {;
+}
+
+/* Forms
+-------------------------------------------------------------- */
+
+input, textarea {
+    line-height: 160%;
+}
+
+/* remember to define focus styles! */
+
+:focus {
+    outline: 0;
+}
+
+::selection {
+    background-color: #fff159;
+}
+
+/* remember to highlight inserts somehow! */
+
+ins {
+    text-decoration: none;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+body {
+  font-family: "Classic Grotesque W01", "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, "Hiragino Sans GB", "PingFang SC", "Heiti SC", "Microsoft YaHei UI", "Microsoft YaHei", "Source Han Sans", sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+    color: #5c5c5c;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #9f9f9f;
+}
+
+a:hover {
+    border-bottom: 1px solid black;
+    color: Black;
+}
+
+blockquote em, blockquote cite, blockquote i {
+    font-style: normal;
+}
+
+input, textarea {
+    font: 14px "Classic Grotesque W01", "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, "Hiragino Sans GB", "PingFang SC", "Heiti SC", "Microsoft YaHei UI", "Microsoft YaHei", "Source Han Sans", sans-serif;
+}
+
+hr {
+    border: 0;
+    color: #cacaca;
+    background-color: #cacaca;
+    height: 1px;
+    margin: 2em 0;
+}
+
+blockquote {
+    // width: 80%;
+    text-indent: 0px;
+    padding: .5em 0px .5em .5em;
+    margin: .5em .5em .5em 1.5em;
+}
+
+body {
+    font-family: "Classic Grotesque W01", "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, "Hiragino Sans GB", "PingFang SC", "Heiti SC", "Microsoft YaHei UI", "Microsoft YaHei", "Source Han Sans", sans-serif;
+    background-color: #f8f8f5;
+}
